@@ -532,7 +532,7 @@ mark,
 }
 
 .hha{
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -9573,7 +9573,7 @@ button.bg-dark:focus {
 
 .text-primary {
   color: #686a6f !important;
-  font-size: 3em;
+  
   
 }
 
