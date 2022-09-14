@@ -532,10 +532,17 @@ mark,
 }
 
 .hha{
-  width: auto;
+  width: 20rem;
   height: auto;
+  margin: auto;
 }
 
+.header-one{
+  font-size: 38px;
+}
+.header-two{
+  font-size: 28px !important;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -648,7 +655,7 @@ pre code {
 
 .portfolio-container img{
   height: 300px;
-  border: 2px solid #649173;
+  border: .01px solid #649173;
 }
 
 .text-center p{
@@ -1272,6 +1279,11 @@ pre code {
   .col-lg-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
+    
+  }
+
+  .col-lg-4 .bg-light{
+    height: 40em;
   }
   .col-lg-5 {
     flex: 0 0 41.66667%;
@@ -1281,6 +1293,8 @@ pre code {
     flex: 0 0 50%;
     max-width: 1000%;
   }
+
+ 
 
   .col-lg-7 {
     flex: 0 0 58.33333%;
@@ -8760,7 +8774,7 @@ button.bg-dark:focus {
     
   }
   .mb-lg-0{
-  width: 500px;
+  width: 25vw !important;
   }
   .ml-lg-0,
   .mx-lg-0 {

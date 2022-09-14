@@ -11,36 +11,38 @@
     animation: slide 26s ease infinite;
   }
   
-  .carousels {
-    right: 0px;
-    min-height: fit-content;
-    max-width: fit-content;
-    background-color: transparent;
-    position: relative;
-  }
+
+.slidesshow-container{
+  width: 48vw;
+  height: 80vh;
+ 
+}
+
   .myslidess {
-    
-    height: /*auto;*/ fit-content; /* size for this demo only */
-    width:  /*auto;*/ 900px; /* size for this demo only */
+    height: inherit; 
+    width:  inherit ;
     padding: 1rem 3.5rem;
     background-color: transparent;
     margin-right: 0px ;
+    overflow: hidden;
+    position: inherit;
     
 
   }
+  .myslidess.one{
+    margin-left: -7em;
+    overflow: visible;
+  }
   .myslidess.two {
     background-color: transparent;
+    height: inherit; 
+    width:  inherit ;
+    float: left;
   }
-  .myslidess .three {
-        background-color: #135dd6;
+  .myslidess.three{
+    margin-left: -7em;
+    overflow: visible;
   }
-  
-.myslidess img{
-    height: 70vh;
-    max-width: 800px;
-    float: right;
-}
-
  .hh:hover{
   display: block;
 }
